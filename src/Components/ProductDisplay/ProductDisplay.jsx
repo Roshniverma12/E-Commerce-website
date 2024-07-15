@@ -37,10 +37,10 @@ export default function ProductDisplay(props)
 
                 <div className="productdisplay-right-prices">
                     <div className="productdisplay-right-prices-old">
-                        ${product.old_price}
+                    &#8377;{product.old_price}
                     </div>
                     <div className="productdisplay-right-prices-new">
-                        ${product.new_price}
+                    &#8377;{product.new_price}
                     </div>
                 </div>
                 

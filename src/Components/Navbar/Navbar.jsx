@@ -22,7 +22,7 @@ export default function Navbar() {
     <div className='navbar'>
         <div className='nav-logo'>
             <img src={logo} alt="Error" />
-            <p>SHOPPER</p>
+            <p>ShopEase</p>
         </div>
 
         <div className={mobileMenu ? 'nav-menubar' : 'nav-menubar hide'}>
